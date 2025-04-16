@@ -1,14 +1,20 @@
 package main
 
-import "github.com/gin-gonic/gin"
+import (
+	"github.com/KagamigawaNoelle/gorder-v2/order/app"
+	"github.com/gin-gonic/gin"
+)
 
 type HTTPServer struct {
+	app app.Application
 }
 
-func (t HTTPServer) PostCustomerCustomerIDOrders(c *gin.Context, customerID string) {
-
+func (H HTTPServer) PostCustomerCustomerIDOrders(c *gin.Context, customerID string) {
+	//TODO implement me
+	panic("implement me")
 }
 
-func (t HTTPServer) GetCustomerCustomerIDOrdersOrderID(c *gin.Context, customerID string, orderID string) {
-
+func (H HTTPServer) GetCustomerCustomerIDOrdersOrderID(c *gin.Context, customerID string, orderID string) {
+	//TODO implement me
+	panic("implement me")
 }
